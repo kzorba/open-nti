@@ -2953,7 +2953,7 @@
                 }
               ],
               "policy": "default",
-              "query": "SELECT derivative(\"value\") AS \"rate\" FROM /($host_regex).lwaftr.statistics.*.drop-all-ipv4-iface-packets/ WHERE $timeFilter",
+              "query": "SELECT derivative(\"value\") AS \"rate\" FROM /($host_regex).lwaftr.statistics.*.drop-all-ipv6-iface-packets/ WHERE $timeFilter",
               "rawQuery": true,
               "refId": "A",
               "resultFormat": "time_series",
@@ -7869,5 +7869,5 @@
   },
   "timezone": "browser",
   "title": "OTE Lightweight 4 over 6",
-  "version": 19
+  "version": 20
 }
